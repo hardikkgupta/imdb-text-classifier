@@ -1,5 +1,7 @@
-# imdb-text-classifier
-# IMDB Sentiment Analysis with MLP Models and SentencePiece Tokenization
+# Binary Classifier with MLP Models and SentencePiece Tokenization
+
+![Description](cover.png)
+This project performs **classification** on the [IMDB dataset](https://huggingface.co/datasets/imdb) using **Multi-Layer Perceptron (MLP)** models with **SentencePiece** tokenization. The notebook trains and compares single-layer and two-layer MLP architectures, evaluates their performance, and conducts error analysis to understand model misclassifications.
 
 ## Table of Contents
 
@@ -15,19 +17,6 @@
 - [Dependencies](#dependencies)
 - [License](#license)
 - [Contact](#contact)
-
-## Overview
-
-This project performs **sentiment analysis** on the [IMDB dataset](https://huggingface.co/datasets/imdb) using **Multi-Layer Perceptron (MLP)** models with **SentencePiece** tokenization. The notebook trains and compares single-layer and two-layer MLP architectures, evaluates their performance, and conducts error analysis to understand model misclassifications.
-
-## Features
-
-- **Data Preprocessing**: Utilizes SentencePiece for efficient tokenization and vocabulary handling.
-- **Model Architectures**: Implements both single-layer and two-layer MLP models.
-- **Training & Evaluation**: Trains models with controlled hyperparameters and evaluates them using accuracy metrics.
-- **Visualization**: Generates plots to compare model performances over epochs.
-- **Error Analysis**: Identifies and displays misclassified samples to gain insights into model behavior.
-- **Reproducibility**: Ensures consistent results across runs by setting random seeds.
 
 ## Installation
 
@@ -53,6 +42,7 @@ Run the following command to install all necessary packages:
 ```bash
 pip install sentencepiece torch==2.3.0 torchtext==0.18.0 torchdata portalocker>=2.0.0 datasets matplotlib scikit-learn
 ```
+
 Note: Specific versions of torch and torchtext are required for compatibility. Ensure that your CUDA version (if using GPU) is compatible with PyTorch 2.3.0.
 
 ## Usage
