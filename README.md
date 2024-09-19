@@ -3,21 +3,6 @@
 ![Description](cover.png)
 This project performs **classification** on the [IMDB dataset](https://huggingface.co/datasets/imdb) using **Multi-Layer Perceptron (MLP)** models with **SentencePiece** tokenization. The notebook trains and compares single-layer and two-layer MLP architectures, evaluates their performance, and conducts error analysis to understand model misclassifications.
 
-## Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Models](#models)
-- [Training and Evaluation](#training-and-evaluation)
-- [Results](#results)
-- [Reproducibility](#reproducibility)
-- [Dependencies](#dependencies)
-- [License](#license)
-- [Contact](#contact)
-
 ## Installation
 
 Before running the notebook, ensure you have Python installed (preferably version 3.7 or higher). The required packages can be installed using `pip`. It's recommended to use a virtual environment to manage dependencies.
@@ -44,13 +29,6 @@ pip install sentencepiece torch==2.3.0 torchtext==0.18.0 torchdata portalocker>=
 ```
 
 Note: Specific versions of torch and torchtext are required for compatibility. Ensure that your CUDA version (if using GPU) is compatible with PyTorch 2.3.0.
-
-## Usage
-Open the Notebook: Use Jupyter Notebook or JupyterLab to open the provided notebook file.
-
-```bash
-jupyter notebook imdb_sentiment_analysis.ipynb
-```
 
 ## Dependencies
 The project relies on the following Python packages:
@@ -79,6 +57,3 @@ pip install -r requirements.txt
 
 ## License
 This project is licensed under the MIT License. Feel free to use and modify it as per your requirements.
-
-## Contact 
-For any questions, suggestions, or feedback, please reach out to [Hardik Gupta](mailto:hardikgupta1999@gmail.com).
