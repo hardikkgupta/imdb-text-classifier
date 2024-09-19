@@ -1,0 +1,8 @@
+sentencepiece
+torch==2.3.0
+torchtext==0.18.0
+torchdata
+portalocker>=2.0.0
+datasets
+matplotlib
+scikit-learn
